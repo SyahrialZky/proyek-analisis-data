@@ -1,74 +1,60 @@
-# Bike Rentals - Final Project Data Analytics
+# 🚴‍♂️ Bike Rentals - Final Data Analytics Project
 
-This is a final project from Dicoding in the "Belajar Analisis Data Dengan Python" course to make analysis and create a dashboard from the bike sharing dataset. In the notebook file, I attached the way I did the analysis from Data Wrangling, Exploratory Data Analysis, and Data Visualization. Besides that, I also make the dashboard using streamlit, and you can check it by clicking on the link in the right sidebar or in [here](https://bike-sharing-rentals.streamlit.app/).
+Welcome to my final project for the Dicoding course **"Belajar Analisis Data Dengan Python"**. In this project, I dive deep into the world of **bike-sharing** data, analyzing trends and patterns using **Python**. This includes **Data Wrangling**, **Exploratory Data Analysis (EDA)**, and **Data Visualization**. To make this analysis more interactive, I also created a **dashboard** using **Streamlit**. Feel free to explore it by clicking the link on the right sidebar or [here](https://bike-sharing-syahrial.streamlit.app/).
 
-For further information, like the background of this dataset, dataset characteristics, file structures, and more, you can check out the `Readme` file. So in here, I won't explain it any further.
+For details on the dataset background, characteristics, and file structure, refer to the `README.md`. Below, I outline the project workflow and how you can interact with the data.
 
-## 1. File Structures
+---
 
+## 📂 Project Structure
+
+. ├── dashboard │ ├── dashboard.py │ └── day.csv ├── data │ ├── day.csv │ └── hour.csv ├── README.md ├── notebook_analisis.ipynb └── requirements.txt
+
+---
+
+## 🔄 Project Workflow
+
+### 1. Data Wrangling
+
+- **Gathering Data**: Pulling in the bike-sharing dataset.
+- **Assessing Data**: Reviewing the data for inconsistencies and missing values.
+- **Cleaning Data**: Tidying the data for further analysis.
+
+### 2. Exploratory Data Analysis (EDA)
+
+- **Business Questions**: Formulating key questions to explore.
+- **Exploration**: Digging deep into the data to extract meaningful insights.
+
+### 3. Data Visualization
+
+- **Visual Storytelling**: Crafting visualizations to answer business questions and showcase key findings.
+
+### 4. Dashboard
+
+- **DataFrame Setup**: Preparing data for use in the dashboard.
+- **Interactive Filters**: Adding dynamic filtering options for an enhanced user experience.
+- **Visualization Integration**: Completing the dashboard with rich visualizations.
+
+_Note: Steps 1 to 3 are performed in `notebook_analisis.ipynb`, while step 4 is in the `dashboard/` folder._
+
+---
+
+## 🚀 Getting Started
+
+### Using `notebook_analisis.ipynb`
+
+1. **Download** the project.
+2. Open your preferred IDE like **Jupyter Notebook** or **Google Colab**.
+3. **Create a New Notebook** and upload the `.ipynb` file.
+4. Connect to the runtime and **run the cells**.
+
+### Running the Dashboard (`dashboard/dashboard.py`)
+
+1. **Download** the project.
+2. Install **Streamlit** using `pip install streamlit`. You'll also need libraries like **pandas**, **numpy**, **scipy**, **matplotlib**, and **seaborn**.
+3. Keep the **CSV files** in the same folder as `dashboard.py` to maintain the data source.
+4. Run the dashboard by opening your terminal and typing:
+
+```bash
+streamlit run dashboard.py
 ```
-.
-├── dashboard
-│   ├── dashboard.py
-│   └── day.csv
-├── data
-│   ├── Readme.txt
-│   ├── day.csv
-|   └── hour.csv
-├── README.md
-├── notebook.ipynb
-└── requirements.txt
-```
-
-## 2. Project work cycle
-
-1. Data Wrangling:
-
-- Gathering data
-- Assessing data
-- Cleaning data
-
-2. Exploratory Data Analysis:
-
-- Defined business questions for data exploration
-- Create Data exploration
-
-3. Data Visualization:
-
-- Create Data Visualization that answer business questions
-
-4. Dashboard:
-
-- Set up the DataFrame which will be used
-- Make filter components on the dashboard
-- Complete the dashboard with various data visualizations
-
-**Note: Numbers 1 to 3 are in the dicoding-collection-exercise and number 4 is in dashboard.**
-
-## 3. Getting Started
-
-### `notebook.ipynb`
-
-1. Download this project.
-2. Open your favorite IDE like Jupyter Notebook or Google Colaboratory (but in here I will use Google Colab).
-3. Create a New Notebook.
-4. Upload and select the file with .ipynb extension.
-5. Connect to hosted runtime.
-6. Lastly, run the code cells.
-
-### `dashboard/dashboard.py`
-
-1. Download this project.
-2. Install the Streamlit in your terminal or command prompt using `pip install streamlit`. Install another libraries like pandas, numpy, scipy, matplotlib, and seaborn if you haven't.
-3. Please note, don't move the csv file because it acts a data source. keep it in one folder as dashboard.py
-4. Open your VSCode and run the file by clicking the terminal and write it `streamlit run dashboard.py`.
-
-## 4. Screenshots
-
-<!-- ![alt text](https://github.com/OrNixz/bike-sharing-rentals/blob/main/screenshots/Screenshot%20(91).png?raw=true)
-
-![alt text](https://github.com/OrNixz/bike-sharing-rentals/blob/main/screenshots/Screenshot%20(92).png?raw=true)
-
-![alt text](https://github.com/OrNixz/bike-sharing-rentals/blob/main/screenshots/Screenshot%20(93).png?raw=true)
-
-![alt text](https://github.com/OrNixz/bike-sharing-rentals/blob/main/screenshots/Screenshot%20(94).png?raw=true) -->
