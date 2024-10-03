@@ -1,1 +1,3 @@
-https://bike-sharing-syahrial.streamlit.app/
+dashboard url : https://bike-sharing-syahrial.streamlit.app/
+
+Github url : https://github.com/SyahrialZky/proyek-analisis-data/tree/main
