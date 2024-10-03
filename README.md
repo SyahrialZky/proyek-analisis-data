@@ -8,7 +8,16 @@ For details on the dataset background, characteristics, and file structure, refe
 
 ## 📂 Project Structure
 
-. ├── dashboard │ ├── dashboard.py │ └── day.csv ├── data │ ├── day.csv │ └── hour.csv ├── README.md ├── notebook_analisis.ipynb └── requirements.txt
+.
+├── dashboard
+│ ├── dashboard.py
+│ └── day.csv
+├── data
+│ ├── day.csv
+| └── hour.csv
+├── README.md
+├── notebook_analisis.ipynb
+└── requirements.txt
 
 ---
 
