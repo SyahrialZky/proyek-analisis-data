@@ -1,4 +1,4 @@
-# 🚴‍♂️ Bike Rentals - Final Data Analytics Project
+# 🚴‍♂️ Bike Sharing - Final Data Analytics Project
 
 Welcome to my final project for the Dicoding course **"Belajar Analisis Data Dengan Python"**. In this project, I dive deep into the world of **bike-sharing** data, analyzing trends and patterns using **Python**. This includes **Data Wrangling**, **Exploratory Data Analysis (EDA)**, and **Data Visualization**. To make this analysis more interactive, I also created a **dashboard** using **Streamlit**. Feel free to explore it by clicking the link on the right sidebar or [here](https://bike-sharing-syahrial.streamlit.app/).
 
@@ -8,6 +8,7 @@ For details on the dataset background, characteristics, and file structure, refe
 
 ## 📂 Project Structure
 
+```
 .
 ├── dashboard
 │ ├── dashboard.py
@@ -19,7 +20,7 @@ For details on the dataset background, characteristics, and file structure, refe
 ├── notebook_analisis.ipynb
 └── requirements.txt
 
----
+```
 
 ## 🔄 Project Workflow
 
