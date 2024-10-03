@@ -61,7 +61,7 @@ _Note: Steps 1 to 3 are performed in `notebook_analisis.ipynb`, while step 4 is 
 ### Running the Dashboard (`dashboard/dashboard.py`)
 
 1. **Download** the project.
-2. Install **Streamlit** using `pip install streamlit`. You'll also need libraries like **pandas**, **numpy**, **scipy**, **matplotlib**, and **seaborn**, or you can do
+2. Install **Streamlit** using `pip install streamlit`. You'll also need libraries like **pandas**, **numpy**, **scipy**, **matplotlib**, and **seaborn**, or you can do (this will install all libraries that needed in this project)
 
 ```
 pip install -r requirement.txt
